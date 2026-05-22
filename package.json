@@ -1,0 +1,26 @@
+{
+  "name": "bookshelf",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service serve",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build",
+    "json-server": "json-server --watch db.json"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "core-js": "^3.47.0",
+    "daisyui": "2.40.1",
+    "vue": "^2.7.16",
+    "vue-tabler-icons": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "4.5.12",
+    "@vue/cli-service": "4.5.12",
+    "autoprefixer": "^9.8.8",
+    "json-server": "^0.17.4",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4",
+    "vue-template-compiler": "^2.7.16"
+  }
+}
